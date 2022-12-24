@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+header{
+  background-image: url(./bckg.png);
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: left;
+  padding-right: 100px;
+  padding-top: 50px;
+  list-style-type: none;
+}
+ul li{
+  float: left;
+  display: inline-block;
+}
+ul li a{
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-right: 10px; 
+  border-right: 1px solid black;
+}
+ul li a:hover{
+  background-color: transparent;
+  color: brown;
+}
+.logo_main{
+  width: 300px;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.logos {
+  display: flex;
+}
+.bottom{
+  margin-bottom: 5%;
+  height: 40px;
+  width: 40px;
+  margin-left: 45%;
+}
+.bottom2{
+  margin-bottom: 8%;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+.bottom img{
+  padding-right: 5px;
+}
+.start_text_heading{
+  margin-top: -40%;
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+.columns{
+  height: 400px;
+  margin-top: 8%;
+  border : 0px solid black;
+}
+.shop_coffee{
+  background-image: url(./coffee.jpg);
+  opacity: 0.7;
+  height: 400px;
+  float: left;
+  width: 50%;
+  border : 0px solid black;
+  }
+.shop{
+  padding-top: 20%;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  text-align-last: center;
+  color: white;
+}
+.shop_now
+{  
+  padding-top: 0%;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-align-last: center;
+  color: white;
+  text-decoration: none;
+}
+.shop_now:hover{
+  color: skyblue;
+}
+.shop_mugs{
+  background-image: url(./mugs.jpg);
+  float: right;
+  opacity: 0.75;
+  height: 400px;
+  width: 50%;
+  border : 0px solid black;
+}
+.multi{
+  width : 100%;
+  height: 1000px;
+  border: 0px solid black;
+}
+.column2{
+  height: 750px;
+  margin-top: 8%;
+  border : 0px solid black;
+}
+.pic1{
+  margin-top: 3%;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.pic2{
+  background-image: url(./pic2.png);
+  width: 100%;
+  height: 100%;
+}
+.pic3{
+  background-image: url(./contact-image.jpg);
+  height: 500px;
+  position: relative;
+}
+.btn_left{
+  float: left;
+  margin-left: 10px;
+  margin-top: 15%;
+  align-self: auto;
+  height: auto;
+  width: 50px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+.btn_right{
+  float: right;
+  margin-right: 10px;
+  margin-top: 15%;
+  align-self: auto;
+  height: auto;
+  width: 50px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
